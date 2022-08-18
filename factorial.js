@@ -1,0 +1,10 @@
+function factorial(number) {
+    let sum = 0;
+    for (let i = 1; i <= number; i++) {
+        sum = sum + i;
+        console.log(i, sum);
+    }
+    return sum;
+}
+const input = (100)
+factorial(input)
